@@ -1,10 +1,16 @@
 #include <stdio.h>
+
+//Global Variables
 int maxsize = 5;
 int top=-1;
+
+//Function Declearations
 void push(int *);
 void pop(int *);
 void display(int *);
 void displaytop(int *);
+
+//Main Starts
 
 int main()
 {
@@ -48,7 +54,9 @@ int main()
 
 }
 
+//Main Ends
 
+//Function Definations 
 void push(int *s)
 {
     if (top== maxsize)
